@@ -359,3 +359,12 @@ def repository_status(segment_info):
 	if repo:
 		return repo.status().strip() or None
 	return None
+
+@requires_segment_info
+def current_scope(segment_info):
+	'''
+	'''
+	ft = getbufvar(segment_info['bufnr'], '&filetype')
+	if ft != 'python':
+		return None
+	return vim.eval('GetCurrentPythonString()')

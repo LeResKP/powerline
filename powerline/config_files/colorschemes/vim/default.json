@@ -22,6 +22,7 @@
 		"file_vcs_status": { "fg": "brightestred", "bg": "gray4" },
 		"file_vcs_status_M": { "fg": "brightyellow", "bg": "gray4" },
 		"file_vcs_status_A": { "fg": "brightgreen", "bg": "gray4" },
+		"current_scope": { "fg": "gray1", "bg": "gray10", "attr": ["bold"] },
 		"line_percent": { "fg": "gray9", "bg": "gray4" },
 		"line_percent_gradient": { "fg": "green_yellow_red", "bg": "gray4" },
 		"line_current": { "fg": "gray1", "bg": "gray10", "attr": ["bold"] },

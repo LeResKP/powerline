@@ -54,6 +54,10 @@
 				"before": " "
 			},
 			{
+				"name": "current_scope",
+				"before": " "
+			},
+			{
 				"type": "string",
 				"highlight_group": ["background"],
 				"draw_divider": false,
